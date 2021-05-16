@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/ports"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/ports"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 // +checklocks:e.mu

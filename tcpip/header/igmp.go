@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/asayago/netstack/tcpip"
 )
 
 // IGMP represents an IGMP header stored in a byte array.

@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/asayago/netstack/tcpip"
 )
 
 const (

@@ -17,8 +17,8 @@ package queue
 import (
 	"encoding/binary"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/asayago/netstack/log"
+	"github.com/asayago/netstack/tcpip/link/sharedmem/pipe"
 )
 
 const (

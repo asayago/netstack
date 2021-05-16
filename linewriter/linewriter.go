@@ -18,7 +18,7 @@ package linewriter
 import (
 	"bytes"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/asayago/netstack/sync"
 )
 
 // Writer is an io.Writer which buffers input, flushing

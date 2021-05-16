@@ -32,7 +32,7 @@ import (
 	"io"
 	"math"
 
-	"gvisor.dev/gvisor/pkg/gohacks"
+	"github.com/asayago/netstack/gohacks"
 )
 
 // Reader is the required reader interface.

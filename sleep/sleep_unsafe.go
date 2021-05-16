@@ -71,7 +71,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/asayago/netstack/sync"
 )
 
 const (

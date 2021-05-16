@@ -19,16 +19,16 @@ import (
 	"math"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/sleep"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/hash/jenkins"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/asayago/netstack/rand"
+	"github.com/asayago/netstack/sleep"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/hash/jenkins"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/seqnum"
+	"github.com/asayago/netstack/tcpip/stack"
+	"github.com/asayago/netstack/waiter"
 )
 
 // maxSegmentsPerWake is the maximum number of segments to process in the main

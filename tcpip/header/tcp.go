@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 
 	"github.com/google/btree"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/seqnum"
 )
 
 // These constants are the offsets of the respective fields in the TCP header.

@@ -18,8 +18,8 @@ import (
 	"math"
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/asayago/netstack/atomicbitops"
+	"github.com/asayago/netstack/sync"
 )
 
 // PacketOverheadFactor is used to multiply the value provided by the user on a

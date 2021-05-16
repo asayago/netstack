@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/asayago/netstack/log"
+	"github.com/asayago/netstack/tcpip/link/sharedmem/pipe"
 )
 
 const (

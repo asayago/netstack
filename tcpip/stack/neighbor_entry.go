@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/header"
 )
 
 const (

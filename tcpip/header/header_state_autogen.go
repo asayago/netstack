@@ -3,7 +3,7 @@
 package header
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/asayago/netstack/state"
 )
 
 func (r *SACKBlock) StateTypeName() string {

@@ -18,8 +18,8 @@ package hash
 import (
 	"encoding/binary"
 
-	"gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/asayago/netstack/rand"
+	"github.com/asayago/netstack/tcpip/header"
 )
 
 var hashIV = RandN32(1)[0]

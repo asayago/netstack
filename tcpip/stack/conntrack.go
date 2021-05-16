@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/hash/jenkins"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcpconntrack"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/hash/jenkins"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/transport/tcpconntrack"
 )
 
 // Connection tracking is used to track and manipulate packets for NAT rules.

@@ -19,8 +19,8 @@ import (
 	"math/rand"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
 )
 
 // hostState is the state a host may be in for a multicast group.

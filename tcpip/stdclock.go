@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/asayago/netstack/sync"
 )
 
 // stdClock implements Clock with the time package.

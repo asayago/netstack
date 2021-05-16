@@ -3,7 +3,7 @@
 package tcpip
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/asayago/netstack/state"
 )
 
 func (e *ErrAborted) StateTypeName() string {

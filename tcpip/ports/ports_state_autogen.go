@@ -3,7 +3,7 @@
 package ports
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/asayago/netstack/state"
 )
 
 func (f *Flags) StateTypeName() string {

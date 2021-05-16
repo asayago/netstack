@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/rand"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/hash/jenkins"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/ports"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/hash/jenkins"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/ports"
 )
 
 type protocolIDs struct {

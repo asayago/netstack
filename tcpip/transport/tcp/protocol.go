@@ -20,15 +20,15 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/header/parse"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/raw"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/header/parse"
+	"github.com/asayago/netstack/tcpip/seqnum"
+	"github.com/asayago/netstack/tcpip/stack"
+	"github.com/asayago/netstack/tcpip/transport/raw"
+	"github.com/asayago/netstack/waiter"
 )
 
 const (

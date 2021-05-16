@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/header"
 )
 
 // TableID identifies a specific table.

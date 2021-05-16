@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/waiter"
 )
 
 // NetworkEndpointID is the identifier of a network layer protocol endpoint.

@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/google/btree"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/seqnum"
 )
 
 const (

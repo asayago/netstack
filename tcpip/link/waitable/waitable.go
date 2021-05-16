@@ -22,10 +22,10 @@
 package waitable
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 // Endpoint is a waitable link-layer endpoint.

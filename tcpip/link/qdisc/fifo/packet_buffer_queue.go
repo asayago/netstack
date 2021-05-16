@@ -15,8 +15,8 @@
 package fifo
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 // packetBufferQueue is a bounded, thread-safe queue of PacketBuffers.

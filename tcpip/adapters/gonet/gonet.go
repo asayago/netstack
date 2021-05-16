@@ -23,13 +23,13 @@ import (
 	"net"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/stack"
+	"github.com/asayago/netstack/tcpip/transport/tcp"
+	"github.com/asayago/netstack/tcpip/transport/udp"
+	"github.com/asayago/netstack/waiter"
 )
 
 var (

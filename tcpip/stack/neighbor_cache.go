@@ -17,8 +17,8 @@ package stack
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
 )
 
 const neighborCacheSize = 512 // max entries per interface

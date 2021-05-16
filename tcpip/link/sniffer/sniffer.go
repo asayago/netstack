@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/header/parse"
-	"gvisor.dev/gvisor/pkg/tcpip/link/nested"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/log"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/header/parse"
+	"github.com/asayago/netstack/tcpip/link/nested"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 // LogPackets is a flag used to enable or disable packet logging via the log

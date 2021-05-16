@@ -22,7 +22,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/asayago/netstack/tcpip"
 )
 
 // GetMTU determines the MTU of a network interface device.

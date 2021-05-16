@@ -3,7 +3,7 @@
 package channel
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/asayago/netstack/state"
 )
 
 func (n *NotificationHandle) StateTypeName() string {

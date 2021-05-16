@@ -17,7 +17,7 @@ package stack
 import (
 	mathrand "math/rand"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/asayago/netstack/sync"
 )
 
 // lockedRandomSource provides a threadsafe rand.Source.

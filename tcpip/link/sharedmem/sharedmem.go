@@ -26,13 +26,13 @@ import (
 	"sync/atomic"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/queue"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/log"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/link/sharedmem/queue"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 // QueueConfig holds all the file descriptors needed to describe a tx or rx

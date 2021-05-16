@@ -15,8 +15,8 @@
 package arp
 
 import (
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/stack"
 )
 
 var _ stack.NetworkEndpointStats = (*Stats)(nil)

@@ -17,7 +17,7 @@ package tcp
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
+	"github.com/asayago/netstack/tcpip/buffer"
 )
 
 // saveData is invoked by stateify.

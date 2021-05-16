@@ -5,7 +5,7 @@
 package atomicbitops
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/asayago/netstack/state"
 )
 
 func (aa *AlignedAtomicInt64) StateTypeName() string {

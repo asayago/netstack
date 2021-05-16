@@ -15,12 +15,12 @@
 package tcp
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/asayago/netstack/sync"
+	"github.com/asayago/netstack/tcpip"
+	"github.com/asayago/netstack/tcpip/header"
+	"github.com/asayago/netstack/tcpip/seqnum"
+	"github.com/asayago/netstack/tcpip/stack"
+	"github.com/asayago/netstack/waiter"
 )
 
 // Forwarder is a connection request forwarder, which allows clients to decide

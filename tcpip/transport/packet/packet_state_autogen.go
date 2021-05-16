@@ -3,8 +3,8 @@
 package packet
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/tcpip/buffer"
+	"github.com/asayago/netstack/state"
+	"github.com/asayago/netstack/tcpip/buffer"
 )
 
 func (p *packet) StateTypeName() string {
